@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>T.P.D Jose Iram Aldaba Garcia</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #444, #666);
+            padding: 40px 0;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        header:hover {
+            transform: scale(1.02);
+        }
+        header h1 {
+            font-family: 'Pacifico', cursive; /* Cambia la fuente a Pacifico */
+            font-size: 3em; /* Ajusta el tamaño de la fuente */
+            color: #FFFFFF; /* Color blanco */
+            margin: 0;
+        }
+        header hr {
+            border: none;
+            border-top: 2px solid #FFD700;
+            width: 50%;
+            margin: 20px auto;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: translateY(-2px);
+        }
+        .galeria {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .galeria img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #444;
+            color: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .contact-button {
+            padding: 10px 20px;
+            background-color: #FFD700;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-right: 10px;
+        }
+        .contact-button:hover {
+            background-color: #e6c200;
+            transform: scale(1.05);
+        }
+        .whatsapp-icon {
+            width: 40px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+        .whatsapp-icon:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>T.P.D Jose Iram Aldaba Garcia</h1>
+        <hr>
+    </header>
+    
+    <section>
+        <div class="video-container">
+            <video controls autoplay playsinline style="max-width: 100%; height: auto;">
+                <source src="VideoApa1.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Conoce un poco más sobre mí y mi buen trabajo</h2>
+        <p>Soy Jose Iram, técnico en prótesis dental, soy de Culiacán y trabajo en la ciudad de Culiacán, Sinaloa. 
+           Por mis manos han pasado incontables trabajos generando muchísimas sonrisas y satisfacciones a las personas. 
+           Más de 25 años en este negocio me respaldan con esfuerzo y pasión, trabajando día a día para los clientes y darles lo mejor.</p>
+    </section>
+    
+    <section>
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <img src="imagenApa1.jpeg" alt="Imagen 1">
+            <img src="imagenApa2.jpeg" alt="Imagen 2">
+            <img src="ImagenApa3.jpeg" alt="Imagen 3">
+            <img src="imagenApa4.jpeg" alt="Imagen 4">
+            <img src="imagenApa5.jpeg" alt="Imagen 5">
+            <img src="imagenApa6.jpeg" alt="Imagen 6">
+        </div>
+    </section>
+    
+    <section>
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi número:</p>
+        <button class="contact-button">Llamar: 6674584771</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Jose Iram Aldaba Garcia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
